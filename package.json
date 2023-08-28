@@ -28,7 +28,6 @@
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "@types/aws-lambda": "^8.10.109",
-    "@types/cli-color": "^2.0.2",
     "@types/node-fetch": "^2.5.11",
     "@types/request-ip": "^0.0.37",
     "@types/uuid": "^8.3.0",
@@ -76,7 +75,6 @@
     "@slack/webhook": "^6.1.0",
     "aws-cdk-lib": "2.54.0",
     "aws-lambda": "^1.0.7",
-    "cli-color": "^2.0.3",
     "constructs": "^10.0.0",
     "middy": "^0.36.0"
   },
