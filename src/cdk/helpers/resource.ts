@@ -5,8 +5,6 @@ export function addMethod(
   resource: apigw.Resource,
   lambdaIntegration: apigw.LambdaIntegration
 ) {
-  // TODO: re-visit aws.cognito.signin.user.admin
-  // TODO: Apply authentication security layer later
   return resource.addMethod(type, lambdaIntegration, {
     apiKeyRequired: false,
     methodResponses: [
